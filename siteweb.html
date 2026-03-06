@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Délices</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <a class="navbar-brand ms-4" href="#">Café Délices</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse me-4" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item  ms-4 active">
+          <a class="nav-link" href="#">Accueil</a>
+        </li>
+        <li class="nav-item  ms-4">
+          <a class="nav-link" href="#">Menu</a>
+        </li>
+        <li class="nav-item  ms-4">
+          <a class="nav-link" href="#">À propos</a>
+        </li>
+        <li class="nav-item  ms-4">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron text-center">
+    <h1 class="display-4">Bienvenue chez Café Délices !</h1>
+    <p class="lead">Votre café préféré avec les meilleures boissons de la ville</p>
+    </div>
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Notre Menu</h2>
+    <h5 class="text-black-50 text-center m-3">Les café</h5>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+        <img src="pot1.jpeg" class="card-img-top" alt="Cappuoccino">
+          <div class="card-body text-center">
+            <h5 class="card-title">Cappuccino</h5>
+            <p class="card-text">Un cappuccino classique avec un délicieux mélange de café et de mousse de lait.</p>
+            <p class="card-text font-weight-bold">20 dh </p>
+            <a href="#" class="btn btn-primary">Commander</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="EQUAL.jpeg" class="card-img-top" alt="Espresso">
+          <div class="card-body text-center">
+            <h5 class="card-title">Espresso</h5>
+            <p class="card-text">Un espresso intense pour les amateurs de café fort.classique avec un délicieux mélange</p>
+            <p class="card-text font-weight-bold">17 dh</p>
+            <a href="#" class="btn btn-primary">Commander</a>
+          </div>  
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="evi1.jpeg" class="card-img-top" alt="Thé">
+          <div class="card-body text-center">
+            <h5 class="card-title">Thé vert</h5>
+            <p class="card-text">Un thé vert naturel, léger et délicieux pour un moment détente.</p>
+            <p class="card-text font-weight-bold">20 dh </p>
+            <a href="#" class="btn btn-primary">Commander</a>
+          </div>
+        </div>
+      </div>
+      <h5 class="text-black-50 text-center m-3">Les Dissert</h5>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+        <img src="chesse.jpeg" class="card-img-top" height="400px" alt="Cheesecake">
+        <div class="card-body text-center">
+        <h5 class="card-title">chesse Cheesecake</h5>
+            <p class="card-text">Le cheesecake est un dessert populaire à base de fromage,</p>
+            <p class="card-text font-weight-bold">19 dh </p>
+            <a href="#" class="btn btn-primary">Commander</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 mb-4">
+    <div class="card">
+    <img src="caked.jpeg" class="card-img-top" height="400px" alt="Cheesecake">
+    <div class="card-body text-center">
+    <h5 class="card-title">chesse Cheesecake</h5>
+        <p class="card-text">Le cheesecake est un dessert populaire à base de fromage,</p>
+        <p class="card-text font-weight-bold">19 dh </p>
+        <a href="#" class="btn btn-primary">Commander</a>
+  </div>
+</div>
+</div>
+<div class="col-md-4 mb-4">
+  <div class="card">
+  <img src="red.jpeg" class="card-img-top" height="400px" alt="Cheesecake">
+  <div class="card-body text-center">
+  <h5 class="card-title">chesse Cheesecake</h5>
+      <p class="card-text">Le cheesecake est un dessert populaire à base de fromage,</p>
+      <p class="card-text font-weight-bold">19 dh </p>
+      <a href="#" class="btn btn-primary">Commander</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="bg-dark text-white text-center py-3 mt-5">
+  <section id="contact" class="container my-5">
+    <h2 class="text-center mb-4">Contactez-nous</h2>
+    <form action="submit_form.php" method="POST">
+        <div class="mb-3">
+            <label for="name" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+    </form>
+</section>
+  <p>&copy; 2024 Café Délices - Tous droits réservés</p>
+</footer>
+</body>
+
+</html>
